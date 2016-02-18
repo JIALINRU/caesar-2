@@ -22,7 +22,6 @@ function submitCode() {
   var shift = document.getElementById("shift");
   var enciphered = document.createElement("p");
   var node = document.createTextNode(CaesarCipher(code.value, parseInt(shift.value)));
-  if ()
   enciphered.appendChild(node);
   enciphered.id = "p1"
   var element = document.getElementById("pcontainer");
